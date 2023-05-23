@@ -29,8 +29,8 @@
       <h5 class="flex justify-center opacity-80 mb-4 text-white font-bold">Hello, Admin</h5>
       <div class="items-center block w-auto max-h-screen overflow-auto h-sidenav grow basis-full">
         <ul class="flex flex-col pl-0 mb-2">
-        <li class="{{ request()->routeIs('dashboard*') ? 'bg-gray-500/30 my-0 mx-2 flex items-center rounded-lg' : '' }}">
-          <a class="py-2.7 dark:text-white dark:opacity-80 text-sm my-0 mx-2 flex items-center rounded-lg px-4 font-semibold text-slate-700 {{ request()->routeIs('dashboard*') ? 'text-white' : '' }}" href="{{ route('dashboard') }}">
+        <li class="{{ request()->routeIs('dashboard*') ? 'bg-gray-500/30 my-0 mx-2 flex items-center rounded-lg' : 'hover:bg-gray-500/30 rounded-lg my-0 mx-2 flex items-center' }}">
+          <a class="py-2.7  dark:text-white dark:opacity-80 text-sm my-0 mx-2 flex items-center rounded-lg px-4 font-semibold  {{ request()->routeIs('dashboard*') ? 'text-white' : '' }}" href="{{ route('dashboard') }}">
             <div class="mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-center stroke-0 text-center xl:p-2.5">
               <i class="relative top-0 leading-normal fa fa-home text-sm"></i>
             </div>
@@ -39,8 +39,8 @@
         </li>
         </ul>
         <ul class="flex flex-col pl-0 mb-2">
-        <li class="{{ request()->routeIs('appointment*') ? 'bg-gray-500/30 my-0 mx-2 flex items-center rounded-lg' : '' }}">
-          <a class="py-2.7 dark:text-white dark:opacity-80 text-sm my-0 mx-2 flex items-center rounded-lg px-4 font-semibold text-slate-700 {{ request()->routeIs('appointment*') ? 'text-white' : '' }}" href="{{ route('appointment') }}">
+        <li class="{{ request()->routeIs('appointment*') ? 'bg-gray-500/30 my-0 mx-2 flex items-center rounded-lg' : 'hover:bg-gray-500/30 rounded-lg my-0 mx-2 flex items-center' }}">
+          <a class="py-2.7 dark:text-white dark:opacity-80 text-sm my-0 mx-2 flex items-center rounded-lg px-4 font-semibold {{ request()->routeIs('appointment*') ? 'text-white' : '' }}" href="{{ route('appointment') }}">
             <div class="mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-center stroke-0 text-center xl:p-2.5">
               <i class="relative top-0 leading-normal fa-solid fa-calendar-check text-sm"></i>
             </div>
@@ -49,8 +49,8 @@
         </li>
         </ul>
         <ul class="flex flex-col pl-0 mb-2">
-        <li class="{{ request()->routeIs('inventory*') ? 'bg-gray-500/30 my-0 mx-2 flex items-center rounded-lg' : '' }}">
-          <a class="py-2.7 dark:text-white dark:opacity-80 text-sm my-0 mx-2 flex items-center rounded-lg px-4 font-semibold text-slate-700 {{ request()->routeIs('inventory*') ? 'text-white' : '' }}" href="{{ route('inventory') }}">
+        <li class="{{ request()->routeIs('inventory*') ? 'bg-gray-500/30 my-0 mx-2 flex items-center rounded-lg' : 'hover:bg-gray-500/30 rounded-lg my-0 mx-2 flex items-center' }}">
+          <a class="py-2.7 dark:text-white dark:opacity-80 text-sm my-0 mx-2 flex items-center rounded-lg px-4 font-semibold {{ request()->routeIs('inventory*') ? 'text-white' : '' }}" href="{{ route('inventory') }}">
             <div class="mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-center stroke-0 text-center xl:p-2.5">
               <i class="relative top-0 leading-normal fa-solid fa-truck-ramp-box  text-sm"></i>
             </div>
@@ -59,8 +59,8 @@
         </li>
         </ul>
         <ul class="flex flex-col pl-0 mb-2">
-        <li class="{{ request()->routeIs('visitor*') ? 'bg-gray-500/30 my-0 mx-2 flex items-center rounded-lg' : '' }}">
-          <a class="py-2.7 dark:text-white dark:opacity-80 text-sm my-0 mx-2 flex items-center rounded-lg px-4 font-semibold text-slate-700 {{ request()->routeIs('visitor*') ? 'text-white' : '' }}" href="{{ route('visitor') }}">
+        <li class="{{ request()->routeIs('visitor*') ? 'bg-gray-500/30 my-0 mx-2 flex items-center rounded-lg' : 'hover:bg-gray-500/30 rounded-lg my-0 mx-2 flex items-center' }}">
+          <a class="py-2.7 dark:text-white dark:opacity-80 text-sm my-0 mx-2 flex items-center rounded-lg px-4 font-semibold  {{ request()->routeIs('visitor*') ? 'text-white' : '' }}" href="{{ route('visitor') }}">
             <div class="mr-2 flex h-8 w-8 items-center justify-center rounded-lg bg-center stroke-0 text-center xl:p-2.5">
               <i class="relative top-0 leading-normal fa-solid fa-person text-sm"></i>
             </div>

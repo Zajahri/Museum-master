@@ -1032,6 +1032,10 @@ h6 {
   --tw-bg-opacity: 1;
   background-color: rgb(210 214 218 / var(--tw-bg-opacity));
 }
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(120 113 108) / var(--tw-bg-opacity);
+}
 
 .bg-gray-500\/30 {
   background-color: rgb(173 181 189 / 0.3);
