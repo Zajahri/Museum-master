@@ -112,33 +112,33 @@
         </div>
       </div>
       
-      <!-- cards row 2 -->
-      <div class="flex flex-wrap justify-between mt-6 -mx-3">
-        <div class="w-full max-w-full px-3 mt-0 lg:w-8/12 lg:flex-none">
-          <div class="border-black/12.5 dark:bg-slate-850 dark:shadow-dark-xl shadow-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
-            <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid p-6 pt-4 pb-0">
-              <h6 class="capitalize dark:text-white">Visitor Statistics</h6>
+          <!-- cards row 2 -->
+         <div class="flex flex-wrap justify-between mt-6 -mx-3" style="display: flex; height: 100%;">
+          <div class="w-full max-w-full px-3 mt-0 lg:w-8/12" style="height: 100%;">
+            <div class="border-black/12.5 mb-4 dark:bg-slate-850 dark:shadow-dark-xl shadow-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border h-full">
+              <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid p-6 pt-4 pb-0">
+                <h6 class="capitalize dark:text-white">Visitor Statistics</h6>
+              </div>
+              <div class="flex-auto p-4">
+                <div>
+                  <canvas id="chart-line" height="400"></canvas>
+                </div>
+              </div>
             </div>
-            <div class="flex-auto p-4">
-              <div>
-                <canvas id="chart-line" height="485"></canvas>
+          </div>
+
+          <!-- pie -->
+          <div class="w-full max-w-full px-3 mt-0 lg:w-4/12" style="height: 100%;">
+            <div class="border-black/12.5 mb-4 dark:bg-slate-850 dark:shadow-dark-xl shadow-xl relative z-20 flex min-w-0 flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border h-full">
+              <div class="border-black/12.5 mb-0 rounded-t-2xl border-b-0 border-solid p-6 pt-4 pb-0">
+                <h6 class="py-2 px-5 mb-0 dark:text-white">Satisfaction Rate</h6>
+                <div class="flex-auto">
+                  <canvas id="chartPie" height=""></canvas>
+                </div>
               </div>
             </div>
           </div>
         </div>
-         
-        <!-- pie -->
-        <div class="w-full max-w-full px-3 mt-0 lg:w-4/12 lg:flex-none">
-          <div class="border-black/12.5 dark:bg-slate-850 dark:shadow-dark-xl shadow-xl relative z-20 flex flex-col break-words rounded-2xl border-0 border-solid bg-white bg-clip-border">
-            <div class="shadow-lg rounded-lg overflow-hidden">
-              <h6 class="py-2 px-5 mb-0 dark:text-white">Satisfaction Rate</h6>
-              <div class="flex-auto">
-                <canvas  id="chartPie" height="485" ></canvas>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       </div>
   </main>
 </body>
